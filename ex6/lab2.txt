@@ -1,0 +1,59 @@
+
+task main()
+{
+		motor[motorB] = 0;
+		motor[motorC] = 0;
+		
+		motor[motorB] =+ 50;
+		motor[motorC] =+ 50;
+		wait1Msec(1000);
+		
+		motor[motorB] = 0;
+		motor[motorC] = 0;
+		
+		motor[motorB] = +25;
+		wait1Msec(1000);
+		motor[motorB] = 0;
+		
+
+		motor[motorB] =+ 75;
+		motor[motorC] =+ 75;
+		wait1Msec(1000);
+		
+		motor[motorB] = 0;
+		motor[motorC] = 0;
+		
+		motor[motorC] = +25;
+		wait1Msec(1000);
+		motor[motorC] = 0;
+	
+		motor[motorB] =+ 350;
+		motor[motorC] =+ 350;
+		wait1Msec(1000);
+		
+		motor[motorB] = 0;
+		motor[motorC] = 0;
+	
+		motor[motorC] = +25;
+		wait1Msec(1000);
+		motor[motorC] = 0;
+		
+		motor[motorB] =+ 300;
+		motor[motorC] =+ 300;
+		wait1Msec(1000);
+		
+	  motor[motorB] = 0;
+		motor[motorC] = 0;
+		
+		motor[motorB] = +15;
+		wait1Msec(1000);
+		motor[motorB] = 0;
+		
+		motor[motorB] =+ 450;
+		motor[motorC] =+ 450;
+		wait1Msec(2000);
+		
+		motor[motorB] = 0;
+		motor[motorC] = 0;
+
+}
